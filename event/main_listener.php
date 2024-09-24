@@ -276,7 +276,7 @@ class main_listener implements EventSubscriberInterface
 						'icon'			=> $entity->get_icon(),
 						'icon_color'	=> $entity->get_icon_color(),
 						'icon_width'	=> $entity->get_icon_width(),
-						'img'			=> $entity->get_img(1),
+						'img'			=> $entity->get_img(3),
 						'font_color'	=> $entity->get_font_color(),
 						'count'			=> $item['count'],
 					);

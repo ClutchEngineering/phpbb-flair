@@ -232,7 +232,7 @@ class acp_flair_controller extends acp_base_controller implements acp_flair_inte
 			'U_BACK'	=> $this->u_action . '&amp;cat_id=' . $entity->get_category(),
 		));
 
-		$this->load_img_select_data($entity->get_img());
+		$this->load_img_select_data($entity->get_img(3));
 		$this->load_cat_select_data($entity->get_category());
 		$this->load_triggers($entity->get_id());
 		$this->load_groups($entity->get_id());
