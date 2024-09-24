@@ -196,7 +196,7 @@ class mcp_user_controller extends acp_base_controller implements mcp_user_interf
 					'FLAIR_COLOR'		=> $entity->get_color(),
 					'FLAIR_ICON'		=> $entity->get_icon(),
 					'FLAIR_ICON_COLOR'	=> $entity->get_icon_color(),
-					'FLAIR_IMG'			=> $this->img_path . $entity->get_img(2),
+					'FLAIR_IMG'			=> $this->img_path . $entity->get_img(3),
 				));
 			}
 		}
@@ -229,7 +229,7 @@ class mcp_user_controller extends acp_base_controller implements mcp_user_interf
 					'FLAIR_COLOR'		=> $entity->get_color(),
 					'FLAIR_ICON'		=> $entity->get_icon(),
 					'FLAIR_ICON_COLOR'	=> $entity->get_icon_color(),
-					'FLAIR_IMG'			=> $this->img_path . $entity->get_img(2),
+					'FLAIR_IMG'			=> $this->img_path . $entity->get_img(3),
 					'FLAIR_FONT_COLOR'	=> $entity->get_font_color(),
 					'FLAIR_COUNT'		=> $item['count'],
 				));

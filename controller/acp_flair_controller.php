@@ -219,7 +219,7 @@ class acp_flair_controller extends acp_base_controller implements acp_flair_inte
 			'FLAIR_COLOR'		=> $entity->get_color(),
 			'FLAIR_ICON'		=> $entity->get_icon(),
 			'FLAIR_ICON_COLOR'	=> $entity->get_icon_color(),
-			'FLAIR_IMG'			=> $entity->get_img(1),
+			'FLAIR_IMG'			=> $entity->get_img(3),
 			'FLAIR_IMG_X2'		=> $entity->get_img(2),
 			'FLAIR_FONT_COLOR'	=> $entity->get_font_color(),
 			'FLAIR_GROUPS_AUTO'	=> $entity->is_groups_auto(),

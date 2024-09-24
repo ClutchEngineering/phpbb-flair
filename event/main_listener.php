@@ -202,7 +202,7 @@ class main_listener implements EventSubscriberInterface
 					'FLAIR_ICON'		=> $entity->get_icon(),
 					'FLAIR_ICON_COLOR'	=> $entity->get_icon_color(),
 					'FLAIR_ICON_WIDTH'	=> $entity->get_icon_width(),
-					'FLAIR_IMG'			=> $this->img_path . $entity->get_img(2),
+					'FLAIR_IMG'			=> $this->img_path . $entity->get_img(3),
 					'FLAIR_FONT_COLOR'	=> $entity->get_font_color(),
 					'FLAIR_COUNT'		=> $item['count'],
 				));
